@@ -1,0 +1,12 @@
+{
+  "domain": "planned_blackouts",
+  "name": "Planned Blackouts",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/USERNAME/planned_blackouts",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/USERNAME/planned_blackouts/issues",
+  "requirements": ["jdatetime"],
+  "version": "0.1.0"
+}
