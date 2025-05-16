@@ -1,0 +1,53 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to SAAPA Planned Blackouts API",
+        "description": "Set up the Planned Blackouts integration to track power outages.",
+        "data": {
+          "bill_id": "Bill ID",
+          "api_token": "API Token",
+          "days_ahead": "Days to look ahead (max 14)",
+          "polling_interval": "Polling interval in seconds (min 300)"
+        }
+      },
+      "reauth": {
+        "title": "Reauthenticate with SAAPA",
+        "description": "Your API token has expired or become invalid. Please enter a new token.",
+        "data": {
+          "api_token": "API Token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to SAAPA API",
+      "invalid_auth": "Invalid authentication token",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This bill ID is already configured",
+      "reauth_successful": "Reauthentication successful"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "next_outage": {
+        "name": "Next Planned Outage",
+        "state_attributes": {
+          "end_time": "End Time",
+          "reason": "Reason",
+          "address": "Address",
+          "outage_number": "Outage Number"
+        }
+      },
+      "today_outages_count": {
+        "name": "Today's Planned Outages"
+      }
+    },
+    "calendar": {
+      "planned_blackouts": {
+        "name": "Planned Blackouts"
+      }
+    }
+  }
+}
