@@ -1,0 +1,8 @@
+ {
+  "name": "Bargheman Blackouts",
+  "content_in_root": false,
+  "domains": ["bargheman_planned_blackouts"],
+  "country": "IR",
+  "homeassistant": "2025.5.0",
+  "render_readme": true
+}
