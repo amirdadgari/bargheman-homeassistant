@@ -1,6 +1,6 @@
 {
-  "domain": "planned_blackouts",
-  "name": "Planned Blackouts",
+  "domain": "bargheman_planned_blackouts",
+  "name": "Bargheman",
   "codeowners": [],
   "config_flow": true,
   "dependencies": [],
