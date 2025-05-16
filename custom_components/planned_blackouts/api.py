@@ -30,13 +30,11 @@ class PlannedBlackoutsApiClient:
     async def async_get_outages(
         self, from_date: datetime, to_date: datetime
     ) -> List[Dict[str, Any]]:
-        """Get planned outages from the API."""
-        # TODO: Implement the API call
-        # 1. Convert from_date and to_date to Shamsi format
-        # 2. Make the API request
-        # 3. Process the response
-        # 4. Convert dates back to Gregorian
-        # 5. Return the processed data
+        """Get planned outages from the API.
+        
+        Converts dates to Shamsi format, makes the API request,
+        and returns processed outage data with Gregorian dates.
+        """
         
         # Convert dates to Shamsi format (YYYY/MM/DD)
         from_date_shamsi = self._convert_to_shamsi(from_date)
