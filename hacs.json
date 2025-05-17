@@ -2,6 +2,5 @@
   "name": "Bargheman Blackouts",
   "content_in_root": false,
   "homeassistant": "2024.5.3",
-   "version": "0.1.0",
   "render_readme": true
 }
