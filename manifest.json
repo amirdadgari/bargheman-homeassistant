@@ -1,7 +1,7 @@
 {
   "domain": "planned_blackouts",
   "name": "Planned Blackouts",
-  "codeowners": [],
+  "codeowners": ["@amirdadgari"],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/USERNAME/planned_blackouts",
